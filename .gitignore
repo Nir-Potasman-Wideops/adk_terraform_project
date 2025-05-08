@@ -7,6 +7,7 @@ ENV/
 # My credentials
 nir-test-443507-8e5a168a4b86.json
 client_secrets.json
+passwords.md
 
 # Python cache files
 __pycache__/
