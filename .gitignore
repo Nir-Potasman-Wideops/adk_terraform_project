@@ -1,0 +1,59 @@
+# Python Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# My credentials
+nir-test-443507-8e5a168a4b86.json
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+terraform.tfvars
+crash.log
+
+# MCP related
+.mcp-cache/
+mcp-logs/
+mcp-tmp/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Keep these important files
+!pyproject.toml
+!.python-version
+!README.md
+!*.md
+!uv.lock
+!*.json
+
+# Local environment configuration
+.env
+.envrc

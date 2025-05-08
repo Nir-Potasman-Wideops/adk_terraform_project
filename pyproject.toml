@@ -1,0 +1,14 @@
+[project]
+name = "eilat-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-adk>=0.3.0",
+    "google-cloud-aiplatform[adk,agent-engines]>=1.91.0",
+    "neovim>=0.3.1",
+    "ruff>=0.11.8",
+    "vertexai>=1.43.0",
+    "python-dotenv>=1.0.0",
+]
